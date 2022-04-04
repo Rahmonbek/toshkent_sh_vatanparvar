@@ -67,12 +67,12 @@ function Leaders() {
                 </div>
                 <div className="icons">
                   <FiPhone className="icon"  size="1.5rem" color="#244BA4" cursor="pointer"/>
-                  <p  style={{position:'relative', top:'-14px'}}><a href={`tel: ${item.phoneNumber}`}>{item.phoneNumber!==null?item.phoneNumber:' - '}</a></p>
+                  <p  style={{position:'relative', top:'-14px'}}><a href={`tel: ${item.phoneNumber}`}>{item.phoneNumber}</a></p>
                 </div>
               
                 <div className="icons">
                   <HiOutlineMail className="icon iconn" size="1.5rem" color="#244BA4" cursor="pointer"/>
-                  <p  style={{position:'relative', top:'-14px'}}><a href={`mailto: ${item.email}`}>{item.email!=="null"?item.email:' - '}</a></p>
+                  <p  style={{position:'relative', top:'-14px'}}><a href={`mailto: ${item.email}`}>{item.email}</a></p>
                 </div>
                
                 <div className="web1">
