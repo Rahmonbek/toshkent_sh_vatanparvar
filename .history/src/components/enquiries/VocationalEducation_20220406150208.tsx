@@ -484,11 +484,11 @@ setbirthDate(true)
        </Form.Item>
    
 
-    <Form.Item  data-placeholder={t("O'quv muassasa")}  className={`myFor ${schoolClass?"forPlace":''}  ${schoolF?"salom":''}`} name="branchId"  label=" "  tooltip={{ title: t("Avval tuman tanlang") , icon: <QuestionOutlined style={{color:'white'}} /> }} rules={[{ required: true, message: t("check")?`${t("O'quv muassasa")}${t("ni tanlashingiz shart")}`:`${t("ni tanlashingiz shart")} ${t("O'quv muassasa")}` }]} >
+    <Form.Item  data-placeholder={t("O'quv muassas")}  className={`myFor ${schoolClass?"forPlace":''}  ${schoolF?"salom":''}`} name="branchId"  label=" "  tooltip={{ title: t("Avval tuman tanlang") , icon: <QuestionOutlined style={{color:'white'}} /> }} rules={[{ required: true, message: t("check")?`${t("O'quv muassas")}${t("ni tanlashingiz shart")}`:`${t("ni tanlashingiz shart")} ${t("O'quv muassas")}` }]} >
       <Select
       value={schooldata}
         className="border"
-        placeholder={!schoolClass?t("O'quv muassasa"):''}
+        placeholder={!schoolClass?t("O'quv muassas"):''}
         style={{textTransform:'none'}}
         onChange={(value) => {  setSchoolF(false);  setBranchdata(null);setSchooldata(value);setSchoolClass(true);  setCategoryClass(false);setBranchL(true);}}
         disabled={schoolS} 

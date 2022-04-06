@@ -42,7 +42,7 @@ function Location() {
                 <div className="location-info">
                     <div className="location-info-address">
                         <a href="https://goo.gl/maps/WnKiD14WoYxDTAqL7" target="_blank"  className='iconn'><HiOutlineLocationMarker className="icon" size="2.1rem" color="#133165" cursor="pointer"/></a>
-                       <a href="https://goo.gl/maps/WnKiD14WoYxDTAqL7"  target="_blank" >{data.length!==0?t("check")?data[0][0].regionAdress!==null?data[0][0].regionAdress:data[0][0].regionAdressRu:data[0][0].regionAdressRu!==null?data[0][0].regionAdressRu:data[0][0].regionAdress:''} </a>  
+                       <a href="https://goo.gl/maps/WnKiD14WoYxDTAqL7"  target="_blank" >{data.length!==0?t("check")?data[0][0].regionAdress!==null?data[0][0].regionAdress:data[0][0].regionAdressRu:''} </a>  
                     </div>
                     <div className="location-info-email">
                         <p key="icon" className='iconn'><AiOutlineMail className="icon" size="2.1rem" color="#133165" cursor="pointer"/></p>

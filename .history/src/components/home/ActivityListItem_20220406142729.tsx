@@ -12,7 +12,8 @@ export function ActivityListItem({data}:Props) {
                 <img src={data.imgUrl} alt="img"/>
             </div>
             <div>
-                <p  className="activity_list-item_link" style={{textAlign:'center',}} dangerouslySetInnerHTML={{ __html: data.content }}></p>
+                    <p>{data.content}</p>
+                    <p  className="activity_list-item_link" style={{textAlign:'center',}} dangerouslySetInnerHTML={{ __html: data.content }}></p>
             </div>
         </Link>
     );
