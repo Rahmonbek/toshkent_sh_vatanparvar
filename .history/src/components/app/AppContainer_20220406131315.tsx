@@ -57,9 +57,9 @@ export function AppContainer() {
                 <Route path="/onlayn-murojat" element={<OnlineEnquiries />} />
                 <Route path="/haydovchilik-maktabiga-yozilish" element={<ToDrivingSchool />} />
                 <Route path="/kasb-hunar-maktabiga-yozilish" element={<Kasbxunar />} />
-                <Route path="/yoshlar-va-fuqarolarni-manaviy-axloqiy" element={<FirstPage />} />
+                <Route path="/yoshlar-va-fuqarolarni-ma’naviy-axloqiy" element={<FirstPage />} />
                 <Route path="/sportning-texnik-va-amaliy-turlarini" element={<SecondPage />} />
-                <Route path="/bolalar-osmirlar-va-chaqiruvgacha" element={<ThirdPage />} />
+                <Route path="/bolalar-o‘smirlar-va-chaqiruvgacha" element={<ThirdPage />} />
                 <Route path="/yoshlar-va-fuqarolarni-mudofaa" element={<FourthPage />} />
                 <Route path="/avtomototransport-vositalari-haydovchilarini" element={<Fifthpage />} />
                 <Route path="/xalqaro-tashkilotlar-bilan-faol-hamkorlik-qilish" element={<SixPage />} />

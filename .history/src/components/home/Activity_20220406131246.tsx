@@ -19,7 +19,7 @@ export function Activity() {
     const items = [
         {
           content:i18n.t('activity-title1'),
-          link: "/yoshlar-va-fuqarolarni-manaviy-axloqiy",
+          link: "/yoshlar-va-fuqarolarni-ma’naviy-axloqiy",
           imgUrl: image1
         },
         {
@@ -29,7 +29,7 @@ export function Activity() {
         },
         {
             content:i18n.t('activity-title3'),
-            link: "/bolalar-osmirlar-va-chaqiruvgacha",
+            link: "/bolalar-o‘smirlar-va-chaqiruvgacha",
             imgUrl: image3
         },
        
