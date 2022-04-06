@@ -46,7 +46,7 @@ function Location() {
                     </div>
                     <div className="location-info-email">
                         <p key="icon" className='iconn'><AiOutlineMail className="icon" size="2.1rem" color="#133165" cursor="pointer"/></p>
-                        <a href={`mailto: ${data.length!==0?data[0][0].email:''}`}  key="email" className="email">{data.length!==0?data[0][0].email:''}</a>  
+                        <a   key="email" className="email">{data.length!==0?data[0][0].email:''}</a>  
                     </div>     
                     <div className="location-info-phone">
                         <div className="location-info-phone-icon">
