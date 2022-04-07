@@ -1,7 +1,10 @@
 import React from 'react'
 import { useTranslation } from "react-i18next";
 import "./assets/acttivitypages.scss";
-
+import img from '../assets/activity-4.jpg';
+import { RiFacebookFill } from "react-icons/ri";
+import { BsInstagram } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
 function FourthPage() {
   const { t } = useTranslation();
   return (

@@ -1,6 +1,11 @@
 import React from 'react';
 import {ActivityListItem} from "./ActivityListItem";
-
+import image1 from './assets/activity1.jpg'
+import image2 from './assets/activity-2.jpg'
+import image3 from './assets/activity-3.jpg'
+import image4 from './assets/activity-4.jpg'
+import image5 from './assets/activity-5.jpg'
+import image5 from './assets/activity-5.jpg'
 import "./assets/activity.scss"
 import {PageTitle} from "../ui/PageTitle";
 import { useTranslation } from 'react-i18next';
@@ -16,34 +21,34 @@ export function Activity() {
         {
           content:i18n.t('activity-title1'),
           link: "/yoshlar-va-fuqarolarni-manaviy-axloqiy",
-          imgUrl: "https://vatanparvar.uz/img/1.jpg"
+          imgUrl: image1
         },
         {
             content: i18n.t('activity-title2'),
             link: "/sportning-texnik-va-amaliy-turlarini",
-            imgUrl: "https://vatanparvar.uz/img/2.jpg"
+            imgUrl: image2
         },
         {
             content:i18n.t('activity-title3'),
             link: "/bolalar-osmirlar-va-chaqiruvgacha",
-            imgUrl: "https://vatanparvar.uz/img/3.jpg"
+            imgUrl: image3
         },
        
         {
             content:i18n.t('activity-title4'),
             link: "/yoshlar-va-fuqarolarni-mudofaa",
-            imgUrl: "https://vatanparvar.uz/img/4.jpg"
+            imgUrl: image4
         },
        
         {
             content:i18n.t('activity-title5'),
             link: "/avtomototransport-vositalari-haydovchilarini",
-            imgUrl: "https://vatanparvar.uz/img/5.jpg"
+            imgUrl: image5
         },
         {
             content: i18n.t('activity-title6'),
             link: "/xalqaro-tashkilotlar-bilan-faol-hamkorlik-qilish",
-            imgUrl: "https://vatanparvar.uz/img/6.jpg"
+            imgUrl: image6
         }
     ]
     return (

@@ -1,7 +1,10 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./assets/acttivitypages.scss";
-
+import img1 from "../assets/activity1.jpg";
+import { RiFacebookFill } from "react-icons/ri";
+import { BsInstagram } from "react-icons/bs";
+import { FaTelegramPlane } from "react-icons/fa";
 function FirstPage() {
   const { t } = useTranslation();
   return (

@@ -1,6 +1,11 @@
 import React from 'react';
 import {ActivityListItem} from "./ActivityListItem";
-
+import image1 from './assets/activity1.jpg'
+import image2 from './assets/activity-2.jpg'
+import image3 from './assets/activity-3.jpg'
+import image4 from './assets/activity-4.jpg'
+import image5 from './assets/activity-5.jpg'
+import image6 from './assets/activity-6.jpg'
 import "./assets/activity.scss"
 import {PageTitle} from "../ui/PageTitle";
 import { useTranslation } from 'react-i18next';
