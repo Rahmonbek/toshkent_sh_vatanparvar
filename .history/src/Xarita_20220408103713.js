@@ -129,7 +129,7 @@ const [region, setRegion] = useState({})
 
   
   useEffect(() => {
-    console.log(window.screen)
+    console.log(window)
     if(window.screen.width<1600 && window.screen.width>1025){
       setzoomA(4)
       console.log("salom")
