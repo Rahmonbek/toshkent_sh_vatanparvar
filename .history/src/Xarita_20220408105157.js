@@ -158,7 +158,7 @@ setzoomA(2)
      setRegion(item)
      setShowModalRegion(true)
   }
- console.log(zoomA)
+ cons
   return (
     <div className="mapR">
      {loader?<div className="loaderG">
